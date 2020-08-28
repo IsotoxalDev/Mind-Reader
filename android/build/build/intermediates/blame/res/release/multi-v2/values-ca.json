@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/abhinav/Important/My Games/Number Gussing/android/build/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ca/values-ca.xml",
+            "map": [
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/b1b1b8c15b350e9b8c621915456fd4e8/res/values-ca/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "193",
+                        "endOffsets": "440"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "193",
+                        "endOffsets": "294"
+                    }
+                },
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/ff2ff4436104a5644762cc7469a535d5/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "1011",
+                        "endColumns": "100",
+                        "endOffsets": "1107"
+                    }
+                },
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/4ccb48125ab22738883f522710242cd1/res/values-ca/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,268,391,456,521,612,732",
+                        "endColumns": "70,122,64,64,90,119,72",
+                        "endOffsets": "267,390,455,520,611,731,804"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "375,450,577,646,715,810,934",
+                        "endColumns": "74,126,68,68,94,123,76",
+                        "endOffsets": "445,572,641,710,805,929,1006"
+                    }
+                },
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/64f7ce80f0baf1c9740ee8be37fc8981/res/values-ca/values-ca.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "75",
+                        "endOffsets": "126"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "299",
+                        "endColumns": "75",
+                        "endOffsets": "370"
+                    }
+                }
+            ]
+        }
+    ]
+}

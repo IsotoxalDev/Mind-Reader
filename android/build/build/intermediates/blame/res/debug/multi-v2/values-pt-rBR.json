@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/abhinav/Important/My Games/Number Gussing/android/build/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/ff2ff4436104a5644762cc7469a535d5/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "923",
+                        "endColumns": "100",
+                        "endOffsets": "1019"
+                    }
+                },
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/4ccb48125ab22738883f522710242cd1/res/values-pt-rBR/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "201,271,394,459,524,604,713",
+                        "endColumns": "69,122,64,64,79,108,73",
+                        "endOffsets": "270,393,458,523,603,712,786"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "309,383,510,579,648,732,845",
+                        "endColumns": "73,126,68,68,83,112,77",
+                        "endOffsets": "378,505,574,643,727,840,918"
+                    }
+                },
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/b1b1b8c15b350e9b8c621915456fd4e8/res/values-pt-rBR/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "203",
+                        "endOffsets": "304"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Thu Apr 30 19:45:08 IST 2020
+base.0=/home/abhinav/Important/My Games/Number Gussing/android/build/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

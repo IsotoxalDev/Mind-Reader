@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/abhinav/Important/My Games/Number Gussing/android/build/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rES/values-es-rES.xml",
+            "map": [
+                {
+                    "source": "/home/abhinav/.gradle/caches/transforms-2/files-2.1/64f7ce80f0baf1c9740ee8be37fc8981/res/values-es-rES/values-es-rES.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "78",
+                        "endOffsets": "129"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Roboto-Light.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Roboto-Black.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://admob-lib/admob.gd" type="Script" id=3]
+[ext_resource path="res://Wait.gd" type="Script" id=4]
+[ext_resource path="res://btn_click.wav" type="AudioStream" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 15
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 2 )
+
+[node name="Wait" type="Node2D"]
+position = Vector2( 0, 64 )
+script = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 145.0
+margin_bottom = 31.0
+custom_fonts/font = SubResource( 1 )
+text = "Think About a Number from 0 to 100. Then Press the button below."
+align = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_left = 1.0
+margin_top = 87.0002
+margin_right = 144.0
+margin_bottom = 127.0
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="CenterContainer"]
+margin_left = 32.0
+margin_top = 7.0
+margin_right = 110.0
+margin_bottom = 32.0
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.905882, 0.298039, 0.235294, 1 )
+text = "Continue"
+flat = true
+
+[node name="Admob" type="Node" parent="."]
+script = ExtResource( 3 )
+is_real = true
+banner_on_top = false
+banner_id = "ca-app-pub-8571450547245888/7863695610"
+[connection signal="pressed" from="CenterContainer/Button" to="." method="_on_TextureButton_pressed"]
